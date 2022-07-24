@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="card" style="width: 18rem;">
+        <img src="images/holiday.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
